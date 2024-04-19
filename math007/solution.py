@@ -22,5 +22,3 @@ def solution(n) :
         if a[j] == 1:
             primes = j
             n -= 1
-    return 
-
