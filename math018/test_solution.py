@@ -39,8 +39,8 @@ def solution(numbers):
             numbers[i][j] = Listnode(numbers[i][j],nodeComparison(numbers[i+1][j],numbers[i+1][j+1]))
     return nodeSummer(numbers[0][0])
 
-
-with open('new.txt','r') as file:
+# Accepting the input as the text file.
+with open('input.txt','r') as file:
     data = file.read().strip().split('\n')
     pyramid = []
     for i in data:
